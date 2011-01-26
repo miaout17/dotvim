@@ -4,6 +4,7 @@ colorscheme darkblue
 
 filetype plugin indent on
 
+syntax on
 set number
 
 " Search settings
@@ -23,5 +24,5 @@ set list
 nmap <C-P> :NERDTreeToggle<CR>
 nmap <silent> <C-N> :silent noh<CR>
 
-autocmd FileType ruby set tabstop=2
-autocmd FileType ruby set shiftwidth=2
+autocmd FileType ruby setlocal tabstop=2
+autocmd FileType ruby setlocal shiftwidth=2
