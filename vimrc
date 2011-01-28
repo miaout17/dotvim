@@ -8,7 +8,7 @@ set number
 set numberwidth=3
 
 " colorscheme darkblue
-colorscheme tir_black
+colorscheme m_tir_black
 
 " Search settings
 set incsearch " Incremental search
