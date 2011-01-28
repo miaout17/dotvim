@@ -1,6 +1,7 @@
 call pathogen#runtime_append_all_bundles()
 
-colorscheme darkblue
+" colorscheme darkblue
+colorscheme tir_black
 
 filetype plugin indent on
 
