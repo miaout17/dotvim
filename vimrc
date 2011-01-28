@@ -1,12 +1,13 @@
 call pathogen#runtime_append_all_bundles()
 
+set nocompatible
+syntax on
+filetype plugin indent on
+set number
+set numberwidth=3
+
 " colorscheme darkblue
 colorscheme tir_black
-
-filetype plugin indent on
-
-syntax on
-set number
 
 " Search settings
 set incsearch " Incremental search
