@@ -34,3 +34,10 @@ bundle/vim-ruby:
   squashed: true
   type: git
   url: https://github.com/vim-ruby/vim-ruby.git
+bundle/xterm-color-table: 
+  branch: master
+  remote: braid/bundle/xterm-color-table
+  revision: 597677c68f9a82d230060ff3a4d9d52a478cf3bf
+  squashed: true
+  type: git
+  url: git://github.com/guns/xterm-color-table.vim.git
