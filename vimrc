@@ -1,4 +1,5 @@
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 set nocompatible
 syntax on
@@ -13,8 +14,11 @@ colorscheme tir_black
 set incsearch " Incremental search
 set hlsearch  " Highlight search
 
+" Status line
 set laststatus=2 " 2 for `always show the status line`
+set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%*%=%-14.(%l,%c%V%)\ %P
 
+" Tab
 set tabstop=4
 set shiftwidth=4
 set expandtab
