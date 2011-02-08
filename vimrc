@@ -8,7 +8,7 @@ set number
 set numberwidth=3
 
 " colorscheme darkblue
-colorscheme m_tir_black
+colorscheme wombat256mod
 
 " Search settings
 set incsearch " Incremental search
