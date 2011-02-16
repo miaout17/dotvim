@@ -29,6 +29,8 @@ set list
 " Key bindings
 nmap <C-P> :NERDTreeToggle<CR>
 nmap <silent> <C-N> :silent noh<CR>
+" Delete trailing spaces
+nmap <C-X> :%s/\s\+$//e<CR>
 
 " autocmd FileType ruby setlocal tabstop=2
 " autocmd FileType ruby setlocal shiftwidth=2
