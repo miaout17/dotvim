@@ -6,6 +6,7 @@ syntax on
 filetype plugin indent on
 set number
 set numberwidth=3
+set noeol
 
 " colorscheme darkblue
 colorscheme wombat256mod
