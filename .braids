@@ -1,4 +1,11 @@
 --- 
+bundle/elixir: 
+  branch: master
+  remote: braid/bundle/elixir
+  revision: 4a3cc9edb7eca1e416b5f867b05862db157e4ec1
+  squashed: true
+  type: git
+  url: git://github.com/miaout17/vim-elixir.git
 bundle/nerdtree: 
   branch: master
   remote: braid/bundle/nerdtree
