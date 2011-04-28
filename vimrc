@@ -8,8 +8,8 @@ set number
 set numberwidth=3
 set noeol
 
-" colorscheme darkblue
-colorscheme wombat256mod
+colorscheme darkblue
+" colorscheme wombat256mod
 
 " Search settings
 set incsearch " Incremental search
