@@ -34,6 +34,13 @@ bundle/surround:
   squashed: true
   type: git
   url: git://github.com/tpope/vim-surround.git
+bundle/vim-easymotion: 
+  branch: master
+  remote: braid/bundle/vim-easymotion
+  revision: cdecdc56f938840cad250aecd58c1901f04c4d1b
+  squashed: true
+  type: git
+  url: https://github.com/Lokaltog/vim-easymotion.git
 bundle/vim-ruby: 
   branch: master
   remote: braid/bundle/vim-ruby
