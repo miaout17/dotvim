@@ -44,7 +44,7 @@ bundle/vim-ruby:
 bundle/xterm-color-table: 
   branch: master
   remote: braid/bundle/xterm-color-table
-  revision: 7a04ceb72b5d1c152fd0482d48c74897c8a8c970
+  revision: 7edaa0262470d6acdf3f0d0491d0117ed31bf51b
   squashed: true
   type: git
   url: git://github.com/guns/xterm-color-table.vim.git
