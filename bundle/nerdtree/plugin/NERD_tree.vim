@@ -866,8 +866,10 @@ function! s:TreeFileNode.copy(dest)
     let parent = b:NERDTreeRoot.findNode(newPath.getParent())
     if !empty(parent)
         call parent.refresh()
+        return parent.findNode(newPath)
+    else
+        return {}
     endif
-    return parent.findNode(newPath)
 endfunction
 
 "FUNCTION: TreeFileNode.delete {{{3
@@ -2029,7 +2031,7 @@ function! s:Path.copy(dest)
 
     let dest = s:Path.WinToUnixPath(a:dest)
 
-    let cmd = g:NERDTreeCopyCmd . " " . self.str() . " " . dest
+    let cmd = g:NERDTreeCopyCmd . " " . escape(self.str(), s:escape_chars) . " " . escape(dest, s:escape_chars)
     let success = system(cmd)
     if success != 0
         throw "NERDTree.CopyError: Could not copy ''". self.str() ."'' to: '" . a:dest . "'"
