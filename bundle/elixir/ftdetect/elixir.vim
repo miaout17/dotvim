@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.ex set filetype=elixir
+au BufRead,BufNewFile *.ex,*.exs set filetype=elixir
