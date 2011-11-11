@@ -1,4 +1,11 @@
 --- 
+bundle/coffee-script: 
+  branch: master
+  remote: master/braid/bundle/coffee-script
+  revision: 2519a91c28abebfa35c9bf498343a05ce99de7a4
+  squashed: true
+  type: git
+  url: https://github.com/kchmck/vim-coffee-script.git
 bundle/elixir: 
   branch: master
   remote: braid/bundle/elixir
