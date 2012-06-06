@@ -37,3 +37,4 @@ nmap <C-X> :%s/\s\+$//e<CR>
 " autocmd FileType ruby setlocal shiftwidth=2
 
 set nobackup
+set noswapfile
