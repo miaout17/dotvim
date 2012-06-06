@@ -50,8 +50,8 @@ bundle/vim-easymotion:
   url: https://github.com/Lokaltog/vim-easymotion.git
 bundle/vim-ruby: 
   branch: master
-  remote: braid/bundle/vim-ruby
-  revision: 07d0b51e96ff3c8878848bc29f3a401c4fabf75b
+  remote: master/braid/bundle/vim-ruby
+  revision: e7e6b4e8d92938b461f20cb94bdca7f79aed2447
   squashed: true
   type: git
   url: https://github.com/vim-ruby/vim-ruby.git
